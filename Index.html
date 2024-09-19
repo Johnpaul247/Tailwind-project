@@ -20,7 +20,7 @@
         <li><a href="#">Blog</a></li>
         <li><a href="#">About Us</a></li>
       </ul>
-      <button class="bg-gray-900 text-white rounded-lg p-2">Get a Demo</button>
+      <button class="bg-gray-900 text-white rounded-lg p-2 hover:bg-white hover:font-semibold hover:text-slate-950 hover: border hover:border-slate-950 hover:duration-[1s] duration-[1s]">Get a Demo</button>
      </nav>
 
      <!-- HERO SECTION -->
@@ -29,7 +29,7 @@
         <div class="flex flex-col gap-6">
           <h1 class="text-5xl font-semibold max-w-[500px] max-md:text-xl">Plan joint ventures for desired targets</h1>
           <p class=" font-light text-lg max-w-[450px]">When an unknown printer took a galley of type and script to make a type specimen book.</p>
-          <h2><i class="i fa fa-home bg-green-600 text-white p-2 rounded-lg"></i> Introducing About Us</h2>
+          <h2 class="text-2xl font-semibold"><i class="i fa fa-play bg-green-600 text-white p-2 rounded-lg"></i> Introducing About Us</h2>
           <div class="relative">
             <div class="flex justify-center gap-8 pt-16 px-2 pb-4 mt-8 bg-gray-300 rounded-lg max-md:w-full max-md:px-8 max-md:gap-8">
               <img class="max-md:w-[100px]" src="/img/apple_store.png" alt="apple">
@@ -43,7 +43,13 @@
 
         <div class="flex flex-col gap-4">
 
-          <div class="flex justify-end gap-2">
+          <div class="flex justify-end gap-8 max-md:mt-8">
+            <div class="relative">
+              <img class="w-[60px] h-[60px] rounded-full" src="/img/users.jpg" alt="">
+              <img class="w-[60px] h-[60px] rounded-full absolute top-[0px] right-[40px] border border-l-white" src="/img/users.jpg" alt="">
+              <img class="w-[60px] h-[60px] rounded-full absolute top-[0px] right-[80px] border border-l-white" src="/img/users.jpg" alt="">
+            </div>
+
             <div class="flex flex-col">
               <h1 class="font-semibold">1.5M +</h1>
               <p>Happy Users</p>
@@ -80,12 +86,12 @@
       <div class="flex flex-col gap-8">
 
         <div class="flex flex-col gap-2">
-          <h1 class="font-bold text-xl"><i class="fa fa-gift bg-gray-900 text-white p-2 rounded-lg"></i> Clear targets</h1>
+          <h1 class="font-bold text-xl"><i class="fa fa-shield bg-gray-900 text-white p-2 rounded-lg"></i> Clear targets</h1>
           <p class="max-w-[600px]">You will target the opportunity with a clear division and target wiith a very clear set time.</p>
         </div>
 
         <div class="flex flex-col gap-2">
-          <h1 class="font-bold text-xl"><i class="fa fa-gift bg-gray-900 text-white p-2 rounded-lg"></i> Promising Progress</h1>
+          <h1 class="font-bold text-xl"><i class="fa fa-cloud bg-gray-900 text-white p-2 rounded-lg"></i> Promising Progress</h1>
           <p class="max-w-[600px]">You can monitor the process of your gathering along with your friends who are planning it.</p>
         </div>
 
@@ -115,16 +121,22 @@
       </div>
 
 
-      <div class="grid grid-col-3 gap-4 pt-4">
+      <div class="grid grid-cols-2 gap-4 pt-4 max-md:grid-cols-1">
+
+        <div class="flex flex-col gap-4 bg-gray-300 rounded-b-[30px] p-8 max-md:rounded-none">
+          <i class="fa fa-cloud bg-gray-900 text-white py-2 px-3 rounded-full w-fit text-2xl"></i>
+          <h1 class="font-bold text-xl">Security and compliance</h1>
+          <p>We lead with a security-first mindset</p>
+          <p class="text-green-600 font-semibold text-xl hover:underline w-fit hover:duration-[1s] duration-[1s] cursor-pointer">Learn More <i class="fa fa-arrow-right text-green-600 "></i></p>
+        </div>
 
         <div class="flex flex-col gap-4 bg-gray-300 rounded-b-[30px] p-8">
-          <i class="fa fa-gift"></i>
-          <h1>Security and compliance</h1>
-          <p>We lead with a security-first mindset</p>
-          <p>Learn More <i class="fa fa-gift"></i></p>
+          <i class="fa fa-cloud bg-gray-900 text-white px-3 py-2 rounded-full w-fit text-2xl "></i>
+          <h1 class="font-bold text-xl">Integrations</h1>
+          <p>Integrate for planning management tools</p>
+          <p class="text-green-600 font-semibold text-xl hover:underline w-fit hover:duration-[1s] duration-[1s] cursor-pointer">Learn More <i class="fa fa-arrow-right text-green-600 "></i></p>
         </div>
         
-
 
       </div>
 
@@ -137,7 +149,7 @@
         <div class="flex flex-col gap-6 mt-8">
           <h1 class="font-semibold text-4xl max-w-[500px] max-md:text-xl">Connecting eith each other for the same purpose</h1>
           <p class="text-xl max-w-[500px]">You will target the unanimity with a clear division and target with a very clear set time</p>
-          <button class="bg-gray-900 text-white p-2 w-fit rounded-lg">Learn More</button>
+          <button class="bg-gray-900 text-white p-2 w-fit rounded-lg hover:bg-white hover:font-semibold hover:text-slate-950 hover: border hover:border-slate-950 hover:duration-[1s] duration-[1s]">Learn More <i class="fa fa-arrow-right"></i></button>
         </div>
       </div>
 
@@ -147,23 +159,23 @@
      <!-- REVIEWS -->
       <div class="px-16 mb-16">
 
-        <div class="flex justify-between">
+        <div class="flex justify-between mb-4">
           <div>
-            <h1>What our users who have used it say</h1>
+            <h1 class="font-semibold text-xl max-md:text-lg">What our users who have used it say</h1>
           </div>
           <div class="flex gap-2">
-            <i class="fa fa-arrow-left text-xl p-2 border border-gray-300 rounded-full"></i>
-            <i class="fa fa-arrow-right text-xl p-2 border border-gray-300 rounded-full"></i>
+            <i class="fa fa-arrow-left text-xl px-3 py-2 border border-gray-300 rounded-full cursor-pointer"></i>
+            <i class="fa fa-arrow-right text-xl px-3 py-2 border border-gray-300 rounded-full cursor-pointer"></i>
           </div>
         </div>
 
         <div class="flex justify-between gap-6 max-md:flex-col">
 
-          <div class="flex flex-col gap-4 bg-gray-300 rounded-lg p-2">
+          <div class="flex flex-col gap-4 bg-gray-300 rounded-lg py-8 px-6">
             <div class="flex gap-2">
               <img class="size-[70px] rounded-full" src="/img/users.jpg" alt="">
               <div class="flex flex-col">
-                <h1 class="font-semibold">Ramuel Smith</h1>
+                <h1 class="font-semibold">Polo Capalot</h1>
                 <img class="w-[70px]" src="/img/rating-45.png" alt="">
               </div>
             </div>
@@ -171,11 +183,11 @@
             <p class="max-w-[400px]">You will target the unanimity with a clear division and target with a very clear set time.</p>
           </div>
 
-          <div class="flex flex-col gap-4 bg-gray-300 rounded-lg p-2">
+          <div class="flex flex-col gap-4 bg-gray-300 rounded-lg py-8 px-6">
             <div class="flex gap-2">
-              <img class="size-[70px] rounded-full" src="/img/users.jpg" alt="">
+              <img class="size-[70px] rounded-full" src="/img/user2.jpeg" alt="">
               <div class="flex flex-col">
-                <h1 class="font-semibold">Ramuel Smith</h1>
+                <h1 class="font-semibold">Sabrina Carpenter</h1>
                 <img class="w-[70px]" src="/img/rating-45.png" alt="">
               </div>
             </div>
@@ -183,11 +195,11 @@
             <p class="max-w-[400px]">You will target the unanimity with a clear division and target with a very clear set time.</p>
           </div>
 
-          <div class="flex flex-col gap-4 bg-gray-300 rounded-lg p-2">
+          <div class="flex flex-col gap-4 bg-gray-300 rounded-lg py-8 px-6">
             <div class="flex gap-2">
-              <img class="size-[70px] rounded-full" src="/img/users.jpg" alt="">
+              <img class="size-[70px] rounded-full" src="/img/user3.jpeg" alt="">
               <div class="flex flex-col">
-                <h1 class="font-semibold">Ramuel Smith</h1>
+                <h1 class="font-semibold">Angel Reese</h1>
                 <img class="w-[70px]" src="/img/rating-45.png" alt="">
               </div>
             </div>
@@ -208,10 +220,11 @@
             <h1 class="font-bold text-2xl"><i class="i fa fa-home bg-gray-900 text-white p-2 rounded-lg" ></i> Patungans</h1>
             <p class="max-w-[400px]">A joint venture is an application to collect fees from an agreed plan.</p>
             <div class="flex gap-4">
-              <a href="https://facebook.com"><i class="fa-brands fa-facebook-f text-xl"></i></a>
-              <a href="https://twitter.com"><i class="fa-brands fa-twitter text-xl"></i></a>
-              <a href="https://github.com"><i class="fa-brands fa-github text-xl"></i></a>
-              <a href="https://linkedin.com"><i class="fa-brands fa-linkedin-in text-xl"></i></a>
+              <a href="https://facebook.com"><i class="fa fa-facebook text-xl"></i></a>
+              <a href="https://twitter.com"><i class="fa fa-twitter text-xl"></i></a>
+              <a href="https://github.com"><i class="fa fa-github text-xl"></i></a>
+              <a href="https://linkedin.com"><i class="fa fa-linkedin text-xl"></i></a>
+              <a href="https://linkedin.com"><i class="fa fa-instagram text-xl"></i></a>
               </div>
           </div>
 
@@ -245,36 +258,32 @@
         </div>
 
         <div class="text-center mt-16 border-t-gray-300">
-          <h1> &copy; Copyright 2022 Patungans. All rights reserved.</h1>
+          <h1> &copy; Copyright 2024 Patungans. All rights reserved.</h1>
         </div>
 
         <div class="flex justify-between gap-32 bg-green-600 p-16 rounded-[20px] absolute top-[-120px] left-[150px] max-md:flex-col max-md:top-[-170px] max-md:left-[30px] max-md:p-2 max-md:gap-16 max-md:w-[350px]">
           <div class="flex flex-col gap-4">
             <h1 class="font-semibold text-white text-2xl max-w-[500px] max-md:text-xl">Plan your budget now with your friends together</h1>
-            <button class="bg-gray-900 text-white rounded-lg p-2 w-fit">Download app</button>
+            <button class="bg-gray-900 text-white rounded-lg p-2 w-fit hover:bg-green-600 hover:font-semibold hover:text-white hover:border hover:border-white hover:duration-[1s] duration-[1s]">Download app</button>
           </div>
 
           <div class="flex flex-col gap-16">
             <div class="flex gap-8">
-              <a href="https://facebook.com"><i class="fa-brands fa-facebook-f text-xl"></i></a>
-              <a href="https://twitter.com"><i class="fa-brands fa-twitter text-xl"></i></a>
-              <a href="https://github.com"><i class="fa-brands fa-github text-xl"></i></a>
-              <a href="https://linkedin.com"><i class="fa-brands fa-linkedin-in text-xl"></i></a>
-              <a href="https://facebook.com"><i class="fa-brands fa-facebook-f text-xl"></i></a>
-              <a href="https://twitter.com"><i class="fa-brands fa-twitter text-xl"></i></a>
-              <a href="https://github.com"><i class="fa-brands fa-github text-xl"></i></a>
-              <a href="https://linkedin.com"><i class="fa-brands fa-linkedin-in text-xl"></i></a>
+              <i class="fa fa-apple text-xl"></i>
+              <i class="fa fa-graduation-cap text-xl"></i>
+              <i class="fa fa-plane text-xl"></i>
+              <i class="fa fa-gift text-xl"></i>
+              <i class="fa fa-bolt text-xl"></i>
+              <i class="fa fa-code text-xl"></i>
           </div>
 
           <div class="flex gap-8">
-            <a href="https://facebook.com"><i class="fa-brands fa-facebook-f text-xl"></i></a>
-            <a href="https://twitter.com"><i class="fa-brands fa-twitter text-xl"></i></a>
-            <a href="https://github.com"><i class="fa-brands fa-github text-xl"></i></a>
-            <a href="https://linkedin.com"><i class="fa-brands fa-linkedin-in text-xl"></i></a>
-            <a href="https://facebook.com"><i class="fa-brands fa-facebook-f text-xl"></i></a>
-            <a href="https://twitter.com"><i class="fa-brands fa-twitter text-xl"></i></a>
-            <a href="https://github.com"><i class="fa-brands fa-github text-xl"></i></a>
-            <a href="https://linkedin.com"><i class="fa-brands fa-linkedin-in text-xl"></i></a>
+              <i class="fa fa-shield text-xl"></i>
+              <i class="fa fa-gift text-xl"></i>
+              <i class="fa fa-cloud text-xl"></i>
+              <i class="fa fa-gift text-xl"></i>
+              <i class="fa fa-gift text-xl"></i>
+              <i class="fa fa-plane text-xl"></i>
         </div>
           </div>
         </div>
